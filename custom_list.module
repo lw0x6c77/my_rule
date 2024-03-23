@@ -1,0 +1,44 @@
+#!name=custom_list
+#!desc=some custom rules
+[Rule]
+# Override
+DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+
+# IP
+IP-CIDR,24.199.123.28/32,PROXY,no-resolve
+IP-CIDR,45.76.214.191/32,PROXY,no-resolve
+IP-CIDR,64.23.132.171/32,PROXY,no-resolve
+IP-CIDR,143.198.200.27/32,PROXY,no-resolve
+IP-CIDR,159.89.204.203/32,PROXY,no-resolve
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,91.108.8.0/22,PROXY,no-resolve
+IP-CIDR,91.108.12.0/22,PROXY,no-resolve
+IP-CIDR,91.108.16.0/22,PROXY,no-resolve
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,109.239.140.0/24,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,2001:B28:F23D::/48,PROXY,no-resolve
+IP-CIDR,2001:B28:F23F::/48,PROXY,no-resolve
+IP-CIDR,2001:67C:4E8::/48,PROXY,no-resolve
+
+# Google DNS
+DOMAIN-SUFFIX,dns.google,PROXY
+IP-CIDR,8.8.8.8,PROXY,no-resolve
+IP-CIDR,8.8.4.4,PROXY,no-resolve
+IP-CIDR,2001:4860:4860::8888,PROXY,no-resolve
+IP-CIDR,2001:4860:4860::8844,PROXY,no-resolve
+
+# Alidns
+DOMAIN-SUFFIX,dns.alidns.com,DIRECT
+IP-CIDR,223.5.5.5,DIRECT,no-resolve
+IP-CIDR,223.6.6.6,DIRECT,no-resolve
+IP-CIDR,2400:3200::1,DIRECT,no-resolve
+IP-CIDR,2400:3200:baba::1,DIRECT,no-resolve
+
+# Tencent-DNSPod
+DOMAIN-SUFFIX,doh.pub,DIRECT
+DOMAIN-SUFFIX,dot.pub,DIRECT
+IP-CIDR,119.29.29.29,DIRECT,no-resolve
+IP-CIDR,1.12.12.12,DIRECT,no-resolve
+IP-CIDR,120.53.53.53,DIRECT,no-resolve
+IP-CIDR,2402:4e00::,DIRECT,no-resolve

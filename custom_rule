@@ -1,4 +1,0 @@
-#!name=custom_rule
-#!desc=custome rule
-[Rule]
-DOMAIN-SUFFIX,changan.com.cn,DIRECT
