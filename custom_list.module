@@ -1,6 +1,9 @@
 #!name=custom_list
 #!desc=some custom rules
 [Rule]
+DOMAIN-SUFFIX,portablesubmarines.com,DIRECT
+DOMAIN-SUFFIX,hcfy.ai,REJECT
+
 # LAN
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
